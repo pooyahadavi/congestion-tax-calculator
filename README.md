@@ -6,14 +6,8 @@ This project is a backend application focusing on implementing a Congestion Tax 
 
 - **API:** The presentation layer responsible for handling HTTP requests and responses. It has references to all other layers.
 - **Service:** The application layer where tax calculations are performed. It has references to the Core layer.
-- **Infrastructure:** The external access layer responsible for interacting with external systems. It has references to both Core and Service layers.
+- **Infrastructure:** The external access layer responsible for interacting with external systems. It has references to the Core layer.
 - **Core:** The heart of the application containing the business logic for the domains. It is independent of other layers.
-
-## Layers Relationships
-
-- **API:** References all layers (Core, Service, and Infrastructure).
-- **Service:** References Core for business logic.
-- **Infrastructure:** References Core for business logic and Service for application layer functionality.
 
 ## Testing
 
@@ -27,7 +21,7 @@ Due to time constraints, the project is a minimal viable product. Given more tim
 
 2. **Authentication and Authorization:** Implement authentication features and define authorization policies to control user access to APIs.
 
-3. **Advanced Specification and Repository Patterns:** Enhance the usage of Specification and Repository patterns for more sophisticated data querying and manipulation.
+3. **Advanced Specification and Repository Patterns:** Enhance the usage of a more sophisticated Specification Pattern and Repository Pattern for data querying and manipulation.
 
 4. **Localization:** Implement localization for error messages instead of hard-coding them, providing a better user experience.
 
