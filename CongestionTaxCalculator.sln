@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CongestionTaxCalculator.Cor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CongestionTaxCalculator.Infrastructure", "CongestionTaxCalculator.Infrastructure\CongestionTaxCalculator.Infrastructure.csproj", "{C7D1634C-3401-4784-B90D-6449D301CFF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Core.UnitTest", "CongestionTaxCalculator.Core.UnitTest\CongestionTaxCalculator.Core.UnitTest.csproj", "{076878A5-69C9-4134-9E19-1FFC10649423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CongestionTaxCalculator.Core.UnitTest", "CongestionTaxCalculator.Core.UnitTest\CongestionTaxCalculator.Core.UnitTest.csproj", "{076878A5-69C9-4134-9E19-1FFC10649423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Service.UnitTest", "CongestionTaxCalculator.Service.UnitTest\CongestionTaxCalculator.Service.UnitTest.csproj", "{E1EE5EEC-6D2D-4DFC-9FE9-59C6FAEF4118}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CongestionTaxCalculator.Service.UnitTest", "CongestionTaxCalculator.Service.UnitTest\CongestionTaxCalculator.Service.UnitTest.csproj", "{E1EE5EEC-6D2D-4DFC-9FE9-59C6FAEF4118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Api.UnitTest", "CongestionTaxCalculator.Api.UnitTest\CongestionTaxCalculator.Api.UnitTest.csproj", "{726F0F74-3F51-4D2A-ADEC-7879B42357CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E1EE5EEC-6D2D-4DFC-9FE9-59C6FAEF4118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1EE5EEC-6D2D-4DFC-9FE9-59C6FAEF4118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1EE5EEC-6D2D-4DFC-9FE9-59C6FAEF4118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726F0F74-3F51-4D2A-ADEC-7879B42357CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726F0F74-3F51-4D2A-ADEC-7879B42357CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726F0F74-3F51-4D2A-ADEC-7879B42357CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726F0F74-3F51-4D2A-ADEC-7879B42357CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
