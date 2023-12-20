@@ -42,3 +42,16 @@ The following environment variables are required for the proper functioning of t
 3. **`CongestionTaxCalculator_SuperadminPassword`:**
    - Description: The password for the SuperAdmin user which is inserted to the database as seed data during application initialization.
    - Example Value: `@Superadmin123`
+
+## Database Migration
+
+Before running the project for the first time, ensure that the database is created by applying the migrations using the Entity Framework Core tools. Open a terminal or command prompt and navigate to the project directory, then run the following command:
+
+```bash
+dotnet ef database update
+```
+Or, if you are using the Package Manager Console in Visual Studio, run:
+
+```bash
+update-database
+```
